@@ -1,5 +1,5 @@
 {
-  "name": "ub-rider",
+  "name": "setup-termux",
   "version": "1.0",
   "maintainer": "Dein Name <deine.email@example.com>",
   "description": "Beschreibung deines Pakets hier",
@@ -14,15 +14,15 @@
   "license": "GPL-3.0",
   "priority": "optional",
   "section": "utils",
-  "source": "https://termux-prime.netlify.app/ub-rider/source/source.tar.gz",
+  "source": "https://termux-prime.netlify.app/setup/source/source.tar.gz",
   "files": [
     {
-      "destination": "/data/data/com.termux/files/usr/bin/",
+      "destination": "/data/data/com.termux/files/usr/bin/setup-termux",
       "source": "main",
       "permissions": "0755"
     },
     {
-      "destination": "/data/data/com.termux/files/usr/share/ub-rider/",
+      "destination": "/data/data/com.termux/files/usr/share/setup-termux/",
       "source": "*",
       "permissions": "0755"
     }
