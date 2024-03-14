@@ -5,8 +5,8 @@
   "maintainer": "alex <alex>",
   "description": "alex",
   "homepage": "alex",
-  "depends": ["python3"],
+  "depends": ["bash"],
   "files": {
-    "start.py": "/data/data/com.termux/files/usr/bin/setup-termux"
+    "start": "/data/data/com.termux/files/usr/bin/setup-termux"
   }
 }
