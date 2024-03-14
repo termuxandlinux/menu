@@ -1,12 +1,12 @@
 {
   "name": "pkgo",
-  "version": "2.0",
+  "version": "2.1",
   "arch": "all",
   "maintainer": "alexander <linuxandtermux@freemail.com>",
   "description": "The Newest Version",
   "homepage": "newset",
   "depends": ["bash"],
   "files": {
-    "main.sh": "/data/data/com.termux/files/usr/bin/pkgo"
+    "update.sh": "/data/data/com.termux/files/usr/bin/pkgo"
   }
 }
