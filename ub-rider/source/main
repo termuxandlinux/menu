@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Prompt for selecting the programming language
+echo "Which version would you like to run?"
+echo "1. C"
+echo "2. Bash"
+echo "3. Python"
+read -p "Please select an option (1/2/3): " choice
+
+case $choice in
+  1)
+    echo "Running the C version"
+    c/start # Assuming the C file is named "start" and located in the "C" directory
+    ;;
+  2)
+    echo "Running the Bash version"
+    bash/start.sh # Assuming the Bash file is named "start.sh" and located in the "Bash" directory
+    ;;
+  3)
+    echo "Running the Python version"
+    python python/start.py # Assuming the Python file is named "start.py" and located in the "Python" directory
+    ;;
+  *)
+    echo "Invalid input. Please choose one of the available options."
+    ;;
+esac
