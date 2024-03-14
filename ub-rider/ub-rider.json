@@ -1,0 +1,30 @@
+{
+  "name": "ub-rider",
+  "version": "1.0",
+  "maintainer": "Dein Name <deine.email@example.com>",
+  "description": "Beschreibung deines Pakets hier",
+  "arch": "all",
+  "depends": [],
+  "conflicts": [],
+  "recommends": [],
+  "provides": [],
+  "suggests": [],
+  "homepage": "https://deine-website.com",
+  "changelog": "Changelog deines Pakets hier",
+  "license": "GPL-3.0",
+  "priority": "optional",
+  "section": "utils",
+  "source": "https://termux-prime.netlify.app/ub-rider/source/source.tar.gz",
+  "files": [
+    {
+      "destination": "/data/data/com.termux/files/usr/bin/",
+      "source": "main",
+      "permissions": "0755"
+    },
+    {
+      "destination": "/data/data/com.termux/files/usr/share/ub-rider/",
+      "source": "*",
+      "permissions": "0755"
+    }
+  ]
+}
